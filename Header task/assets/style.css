@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: aquamarine;
+    box-sizing: border-box;
+    height: 100%;
+}
+ul{
+    list-style-type: none;
+    margin: 50px 0px 0px 0px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+ul li{
+    display: inline;
+    margin-left: 10px;
+    padding: 20px;
+    background-color: yellow;
+    border: 5px solid blue;
+}
+.gray{
+    margin-left: 370px;
+    background-color: gray;
+    width: 400px;
+    height: 85%;
+    color: rgb(57, 57, 197);
+}
+.yellow{
+    background-color: yellow;
+    width: 400px;
+    height: 85%;
+    color: gray;
+}
+.navy-blue{
+    background-color: blue;
+    width: 400px;
+    height: 85%;
+    color: yellow;
+}
+.title{
+    float: left;
+    margin-top: 20px;
+    height: 550px;   
+}
+#titles p{ 
+    text-align: center;
+    font-size: 30px;
+    height: 80%;
+}
+.footer{
+    margin-top: 575px;
+    margin-left: 760px;
+    color: rgb(173, 173, 75);
+}
